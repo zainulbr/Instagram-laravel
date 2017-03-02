@@ -1,0 +1,54 @@
+  * {
+    position: relative;
+    box-sizing: border-box;
+}
+ 
+body {
+    color: $white;
+    font-size: $font-size;
+}
+ 
+ 
+header {
+     img {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    margin-left: -600px;
+    width: 1200px;
+ 
+    @media screen and (min-width: $screen-lg) {
+        top: auto;
+        left: auto;
+        margin: 0;
+        width: 100%;
+
+    max-height: 600px;
+    height: 600px;
+    overflow: hidden;  /*
+* Custom variables
+*/
+$main-font: 'Lato', sans-serif;
+$sub-font: 'Montserrat', sans-serif;
+$fancy-font: 'Kaushan Script', cursive;
+$font-size: 16px;
+ 
+$black: #000;
+$white: #FFF;
+$grey: #585c65;
+$mediumgrey: #9b9b9b;
+$lightgrey: #eeeeee;
+$blue: #3466a1;
+ 
+$padding: 10px;
+$margin: 10px;
+/*
+* Override Bootstrap variables
+*/
+$font-family-sans-serif: $main-font;
+
+        }
+    }
+}
+@import 'bootstrap';
+

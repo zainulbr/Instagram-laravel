@@ -1,0 +1,180 @@
+body{
+	background-color: #eaeae1;
+}
+
+a{
+	color: gray;
+}
+
+.loginpage{
+	background-image: url(../../back.jpg);
+}
+
+.registerpage{
+	background-image: url(../../back2.jpg);
+}
+
+.navbar-inner{
+    background-color: transparent;
+}
+
+.btn-grey:hover{
+	background-color: #5D5C5C;
+}
+
+.btn-follow:hover{
+	background-color: green;
+}
+
+.btn-unfollow:hover{
+	background-color: #D04848;
+}
+
+.f-btn{
+	width: 388px;
+	background-color: #5D5C5C;
+}
+
+.f-btn:hover{
+	width: 388px;
+	background-color: green;
+}
+.notfound{
+	text-align: center;
+}
+
+.pic{
+	width: auto;
+	height: auto;
+	margin-bottom: 21px;
+}
+.interaction a {
+	text-decoration: none;
+}
+
+.underscore{
+	text-decoration: none;
+}
+
+.account-info > img {
+	float: left;
+}
+
+.account-info > .identity-info {
+	position: relative;
+}
+
+.name-info{
+    margin-top: 0px;
+    padding-top: 3px;
+    margin-bottom: -4px;
+}
+
+.image-info{
+	border-radius: 6px;
+	height: 47px;
+	width: 49px;
+	margin-right: 1%;
+}
+
+.account-info  a{
+	text-decoration: none;
+}
+
+.id-info {
+
+}
+
+
+.interaction {
+    margin-top: 6px;
+    font-size: 18px;
+    padding-top: 4px;
+    margin-bottom: -9px;
+}
+.status{
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(0, 0, 0, 0.74);
+    font-weight: 500;
+    padding: 0px 15px;
+    margin-bottom: -7px;
+}
+
+.regis{
+	margin: auto;	
+	margin-bottom: 10px;
+}
+
+.footer{
+	clear: both;
+	background-color: gray;
+	height: 100px;
+}
+
+.comment {
+	padding: 1px 13px;
+	margin-top: -11px;
+}
+
+.comment-form{
+    margin-top: 15px;
+}
+
+.comment-name{
+	float: left;
+	margin-right: 5px;
+}
+
+.comment-list{
+	display: inline;
+}
+
+#overlayup {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background:black;
+    background:rgba(0,0,0,0.8);
+
+    filter:blur(4px);
+    -o-filter:blur(4px);
+    -ms-filter:blur(4px);
+    -moz-filter:blur(4px);
+    -webkit-filter:blur(4px);
+}
+
+.login-screen {
+	margin-top: 15%;
+}
+
+.message-list {
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.message-list > li:hover{
+	background-color: #DEDADA;
+}
+
+.message-list > li{
+
+}
+
+.message-list > li > a{
+	text-decoration: none;
+}
+
+.message-item{
+	position: relative;
+	display: block;
+	padding: 10px 12px;
+}
+
+.readed{
+	background-color: rgb(234, 234, 225);
+}
